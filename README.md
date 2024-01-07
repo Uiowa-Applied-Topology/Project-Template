@@ -4,29 +4,36 @@ _One paragraph project description. This should describe the goal you're trying 
 
 # Planning
 
-## Working Agreement
-
-### Tasks
+## Tasks
 
 _Describe how work is partitioned and distributed._
 
-### Version control
+## Version control
 
 _Describe a version control strategy. Will you branch? Will you rebase? How many branches will you maintain? How will versions be labeled?_
 
-### Define a unit
+## Project Structure
+
+_Describe the file/directory structure of the project_
+**No directory or file shall contain: ' ' or a capital letter.**
+**- source: contains all source code for the project. Each unit in it's own directory**
+**- test: contains all the test code for the project. **
+**- test/unit_test: contains all the unit test code for the project. Each unit in it's own directory**
+**- test/integration_test: contains all the integration test code for the project. Each test in it's own directory**
+
+## Define a unit
 
 _What is a unit for this project? A function? A class? Something else?_
 
-### Quality
+## Quality
 
 _Describe the quality goals for the project. Is this a prototype? Is this a product?_
 
-#### Unit testing
+### Unit testing
 
 _Describe the unit testing strategy for this project._
 
-#### Integration testing
+### Integration testing
 
 _Describe the integration testing strategy for this project._
 
@@ -81,10 +88,6 @@ _Include some diagrammatic description of the unit. A class diagram? A sequence 
 #### Unit test description
 
 _List the unit tests for this unit_
-
-# Integration tests
-
-_List the integration tests for the system._
 
 .
 .
