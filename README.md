@@ -39,7 +39,7 @@ _Describe the integration testing strategy for this project._
 
 ## Requirements
 
-### Functional
+### Functional Requirements
 
 _Functional requirements for a simple project should be phrased as use-cases._
 
