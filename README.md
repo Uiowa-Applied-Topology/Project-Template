@@ -4,6 +4,10 @@ _One paragraph project description. This should describe the goal you're trying 
 
 # Planning
 
+## License
+
+_Select a [License](https://choosealicense.com/) for the project. Write a sentence why you selected the license. Copy the respective "LICENSE" file from github into the root of the repo._
+
 ## Tasks
 
 _Describe how work is partitioned and distributed._
