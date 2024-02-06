@@ -45,7 +45,9 @@ _Describe the integration testing strategy for this project._
 
 ### Functional Requirements
 
-_Functional requirements for a simple project should be phrased as use-cases._
+_Functional requirements for a simple project should be phrased as usecases. Example can be found in docs._
+
+**Note that mermaid doesn't support usecase diagrams you need to use another tool(draw.io, plantUML) until [this issue](https://github.com/mermaid-js/mermaid/issues/4628) is resolved.**
 
 
 ### Non Functional Requirements
@@ -120,9 +122,12 @@ _List the integration tests for the system._
 Some useful resources:
 
 * [Software engineering : a practitioner's approach by Roger Pressman](https://search.lib.uiowa.edu/permalink/f/9i2ftm/01IOWA_ALMA21322763270002771)
-* [Diagraming tool](https://app.diagrams.net/)
+* [GUI Diagraming tool](https://app.diagrams.net/)
 * [Plain text diagraming tool](https://mermaid.js.org/config/Tutorials.html)
+* [Another plain text diagraming tool](https://plantuml.com/)
 ---
+
+# Mermaid examples
 ```mermaid
 gitGraph
     commit
@@ -178,3 +183,27 @@ sequenceDiagram
     John-->>-Alice: I feel great!
 ```
 ---
+# PlantUML
+
+```plantuml
+@startuml
+left to right direction
+actor Guest as g
+package Professional {
+  actor Chef as c
+  actor "Food Critic" as fc
+}
+package Restaurant {
+  usecase "Eat Food" as UC1
+  usecase "Pay for Food" as UC2
+  usecase "Drink" as UC3
+  usecase "Review" as UC4
+}
+fc --> UC4
+g --> UC1
+g --> UC2
+g --> UC3
+@enduml
+
+
+```
