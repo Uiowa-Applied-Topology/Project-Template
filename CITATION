@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Software Project Template
+message: "If you use this, please cite it as below."
+type: document
+authors:
+    - family-names: Starr
+      given-names: Joseph
+identifiers:
+    - type: doi
+      value: 10.5281/zenodo.15603428
+repository-code: "https://github.com/Uiowa-Applied-Topology/Project-Template"
+abstract: >-
+    The following is a one page basic software project template. The template
+    gives an ouline for a minimal structre for a generic software project. Each
+    section of the template has a description. Sections can be added, removed,
+    or altered as needed to fit the software being built.
+license: CC-BY-NC-SA-4.0
+date-released: "2025-06-05"
