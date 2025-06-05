@@ -10,7 +10,7 @@ authors:
       given-names: Joseph
 identifiers:
     - type: doi
-      value: 10.5281/zenodo.15603428
+      value: 10.5281/zenodo.15603427
 repository-code: "https://github.com/Uiowa-Applied-Topology/Project-Template"
 abstract: >-
     The following is a one page basic software project template. The template
