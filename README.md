@@ -18,13 +18,27 @@ free to open an issue. I've included templates for the following issues:
 -   ❓ Question
 -   🚀 Enhancement
 
+## Release Tagging
+
+The repository adopts [semantic versioning](https://semver.org) for version
+labels.
+
+```
+vMAJOR.MINOR.PATCH
+```
+
 ## Cite Me 📃
 
 BibTeX and APA on the right sidebar of GitHub.
 
-## License ⚖️
+<!-- prettier-ignore-start -->
+## Citations
+1. Pressman, R. S. (2015). Software engineering: A practitioner's approach (Eighth edition). McGraw-Hill Education.
 
+## License ⚖️
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span property="dct:title">Materials for a Course on Teaching Undergraduate Research</span> by <span property="cc:attributionName">Joseph Starr and Lori Adams</span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
+
+<!-- prettier-ignore-end -->
 
 ## Resources
 
@@ -33,9 +47,15 @@ BibTeX and APA on the right sidebar of GitHub.
 Some useful resources:
 
 -   [Software engineering : a practitioner's approach by Roger Pressman](https://search.lib.uiowa.edu/permalink/f/9i2ftm/01IOWA_ALMA21322763270002771)
--   [GUI diagramming tool](https://app.diagrams.net/)
--   [Plain text diagramming tool](https://mermaid.js.org/config/Tutorials.html)
--   [Another plain text diagramming tool](https://plantuml.com/)
+-   [diagrams.net](https://app.diagrams.net/)
+-   [mermaid.js](https://mermaid.js.org/config/Tutorials.html)
+-   [plantUML](https://plantuml.com/)
+-   [Semantic versioning](https://semver.org) for version labels.
+-   [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+-   [Architectural Decision Records](https://adr.github.io)
+-   [Markdown Architectural Decision Records](https://adr.github.io/madr/)
+-   [git book](https://git-scm.com/book/en/v2)
+-   [COLORS](https://clrs.cc)
 
 ---
 
